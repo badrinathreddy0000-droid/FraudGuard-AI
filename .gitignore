@@ -1,0 +1,25 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+backend/venv/
+backend/fraudguard.db
+*.sqlite3
+
+# Node & Frontend
+node_modules/
+frontend/dist/
+frontend/.env.local
+.DS_Store
+
+# Large Dataset Files (Keep repository clean)
+data/*.csv
+!data/README.md
+data/*.zip
+data/*.tar.gz
+
+# Environment
+.env
+.venv
